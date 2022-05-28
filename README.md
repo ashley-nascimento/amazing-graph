@@ -1,6 +1,6 @@
 # Amazing Graph
 
-Aceitei o desafio do <a href="https://devchallenge.now.sh/"> DevChallenge</a>, que consiste em criar uma landing page sobre um site de criação de gráficos.
+Desafio do <a href="https://devchallenge.now.sh/"> DevChallenge</a>, que consiste em criar uma landing page sobre um site de criação de gráficos.
 
 
 # Requisitos:
