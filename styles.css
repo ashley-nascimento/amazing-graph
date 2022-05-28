@@ -1,0 +1,158 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+}
+
+html, body{
+    font-family: "Roboto", "Helvetica Neue", Helvetica, Arial;
+    font-size: 100%;
+}
+
+
+:root{
+    --orange: #D2872C;
+    --gray: #766F68;
+    --black: #000000;
+    --white: #FFFFFF;
+}
+
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    padding: 0 5rem;
+    height: 100px;
+}
+
+.nav-title{
+    color: var(--orange);
+    font-size: 2rem;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+.nav-title:hover{
+    opacity: .8;
+}
+
+.nav-links{
+    display: flex;
+    height: 100%;
+}
+
+.nav-links div{
+    font-size: 1.5rem;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    border-bottom: 4px solid var(--white);
+    padding: 0 1rem;
+}
+
+.nav-links div a{
+    text-decoration: none;
+    color: var(--black);
+}
+
+.nav-links div:hover{
+    border-bottom: 4px solid var(--orange);
+    background: antiquewhite; 
+}
+
+.nav-links div:hover a{
+    color: var(--orange);  
+}
+.container{
+    padding: 1rem 10rem;
+    position: relative;
+    margin-top: 3rem;
+    margin-bottom: 15rem;
+}
+
+.container h1{
+    font-size: 4.5rem;
+    color: var(--gray);
+    width: 50%;
+}
+
+.container h5{
+    font-size: 1.8rem;
+    color: var(--gray);
+    width: 42%;
+    font-weight: 400;
+    margin-top: 1.5rem;
+    margin-bottom: 1rem;
+}
+
+.container button{
+    color: var(--white);
+    background-color: var(--orange);
+    border: 2px solid var(--orange);
+    padding: 1rem 6rem;
+    border-radius: 10px;
+    font-weight: 600;
+    font-size: 1.5rem;
+    margin-top: 2rem;
+    cursor: pointer;
+}
+
+.container button:hover{
+    color: var(--orange);
+    background-color: var(--white);
+}
+
+.container img{
+    position: absolute;
+    width: 60%;
+    top: 8%;
+    z-index: -1;
+    right: 0;
+}
+
+.nav-collapse{
+    display: none;
+}
+
+@media only screen and (max-width: 768px) {
+    html,body{
+        font-size: 80%
+    }
+    .navbar{
+        padding: 2rem 2rem;
+    }
+    .container{
+        padding: 2rem;
+        text-align: center;
+        margin-top: 0;
+        margin-bottom: 5rem;
+    }
+
+    .container h1 {
+        width: 100%;
+        font-size: 2.75rem;
+        margin-top: 2rem;
+    }
+    
+    .container h5  {
+        width: 100%;
+    }
+    .container img {
+        position: initial;
+        width: 100%;
+    }
+
+    .nav-links{
+        display: none;
+    }
+
+    
+    .nav-collapse{
+        display: block;
+    }
+
+    svg:hover {
+        fill: var(--orange);
+    }
+}
+
