@@ -25,11 +25,3 @@ Imagens disponíveis na pasta `./assets`<br>
 # Colors:
 Orange: #D2872C<br>
 Gray: #766F68
-
-
-# Getting start:
-1 - Use esse template ou baixe esse repositório com o código inicial<br>
-2 - Leia as instruções no readme.md<br>
-3 - Comece a codar!<br>
-4 - Compartilhe seu resultado com a comunidade :)<br>
-
